@@ -1,0 +1,28 @@
+# Virtual environments
+.venv
+venv
+env/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Local env overrides
+.env.local
+.env.*.local
